@@ -1,0 +1,11 @@
+Order allow,deny
+Deny from all
+<FilesMatch .ogg>
+        Allow from all
+</FilesMatch>
+<FilesMatch .mp4>
+        Allow from all
+</FilesMatch>
+<FilesMatch .webp>
+        Allow from all
+</FilesMatch>
